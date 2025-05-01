@@ -1,0 +1,10 @@
+# !!omap is used for dictionary
+people: !!omap
+  - kunal:
+      name: sourav kumar panda
+      age: 23
+      height: 173
+  - Rahul:
+      name: Rahul
+      age: 50
+      height: 176

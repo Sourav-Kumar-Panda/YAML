@@ -1,0 +1,10 @@
+# List (array)
+
+- apple
+- mango
+- banana
+- Apple
+
+#YAML is case-sensitive
+# Means apple and Apple are two different things.
+...

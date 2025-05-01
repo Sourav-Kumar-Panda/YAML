@@ -1,0 +1,8 @@
+# "Key" : "Value"
+
+"apple" : "I am a red fruit"
+21 : "This is sourav's roll no"
+---
+# or
+{"apple": "I am a red fruit", 21: "This is sourav's roll no"}
+...

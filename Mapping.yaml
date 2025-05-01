@@ -1,0 +1,25 @@
+# Key value pairs are called maps
+# !!map
+roll no : 24
+---
+
+# nasted mapping - map inside a map
+role :
+ - age : 18
+ - job : student
+---
+
+# or 
+role : {age : 18 , job : student}
+---
+# pairs - keys may have dublicate values
+# !!pairs
+Pair : !!pairs
+ - job : student
+ - job : Teacher
+---
+# or
+pair example: !!pairs [job : student, job : Teacher]
+---
+# This will be a array of hashtable
+...

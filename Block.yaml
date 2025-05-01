@@ -1,0 +1,12 @@
+# Block (array)
+# Spaces are Important
+Cities :
+ - new delhi
+ - mumbai
+ - kolkata
+---
+
+# or
+
+cities : [new delhi, mumbai, kolkata]
+...

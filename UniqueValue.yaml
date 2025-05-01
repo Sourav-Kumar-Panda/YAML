@@ -1,0 +1,6 @@
+# !!set will aloow you to have unique values.
+name : !!set
+ ? kunal
+ ? sourav
+ ? anup
+...

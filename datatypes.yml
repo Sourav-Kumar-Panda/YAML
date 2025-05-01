@@ -1,0 +1,60 @@
+# Strings variable
+#Three ways to represent string variable
+
+# name : variable
+myself : sourav kumar panda
+fruit : "apple"
+Learning  : 'DevOps'
+---
+
+bio : |
+ Hii my name is sourav
+ I am learning DevOps
+ ---
+
+#  write a single line in multiple lines
+message : >
+ this will
+ be in one 
+ line
+
+#  same as 
+message : this will be in one single line
+---
+
+# Datatype are automatically detected in YAML.
+
+
+# Specifying the datatypes
+# int datatype
+zero : !!int 0
+positiveNum : !!int 45
+negativeNum : !!int -45
+binaryNum : !!int 0b11001 
+octalNum : !!int 06574
+hexaNum : !!int 0x45
+commaValue : !!int +540_000
+# 540,000
+exponential : !!int 6.023E56
+---
+
+# float datatype
+mark : !!float 56.91
+infinity : !!float .inf
+notAnumber : .nan
+# for not a number detection
+---
+
+# boolean
+boolean value : !!bool NO, no, No, n, N, False, FALSE, false
+boolean value : !!bool YES, yes, Yes, y, Y, True, TRUE, true
+---
+
+# String
+message : !!str This is a string
+---
+
+#date and time
+date : !!timestamp 2023-05-15 14:30:00 +05:00
+# by default it is UTC time zone
+---

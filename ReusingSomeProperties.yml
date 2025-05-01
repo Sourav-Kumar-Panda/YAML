@@ -1,0 +1,13 @@
+# Reusing some properties using anchors
+
+Linkings : &likes
+  fav fruit : mango
+  dislikes : grapes
+
+person1 :
+  name : sourav
+  << : *likes
+
+person2 :
+  name : Rahul
+  << : *likes

@@ -1,0 +1,29 @@
+Student : !!seq
+ - marks
+ - name
+ - roll no
+---
+# or
+Student : [marks, date, name, roll no]
+---
+
+# some of the keys of the sequence may be empty- Thats known as sparse sequence
+Sparce Sequence :
+ - hey
+ - how
+ - 
+ - Null
+ - sub
+---
+
+# Nasted Sequence
+Nasted Sequence :
+ - 
+  - mango
+  - banana
+  - orange
+ -
+  - Hello
+  - Hii
+  - Data
+---
